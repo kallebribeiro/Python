@@ -44,12 +44,12 @@ for i in range(4):
 plt.show()
 
 from skimage.io import imread  # PARA ABRIR IMAGENS
-image = imread('C:/Users/ribei/Downloads/dog1.jpeg')
+image = imread('')
 plt.imshow(image)
 plt.show()
 
 # PARA MOSTRAR TODAS AS IMAGENS DE UMA VEZ
-endereco = 'C:/Users/ribei/Downloads/'
+endereco = ''
 imagens = []
 for i in range(3):
     imagem = imread(endereco +'ps'+str(i+1)+'.jpg')

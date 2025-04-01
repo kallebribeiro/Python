@@ -20,7 +20,7 @@ import matplotlib.pyplot as plt
 
 print('Helo pandas')
 
-#dados = pd.read_excel('C:/Users/ribei/OneDrive/Documentos/excel/arquivo1.xlsx')
+#dados = pd.read_excel('')
 
 #print(dados)
 
@@ -28,7 +28,7 @@ print('Helo pandas')
 
 # KAGGLE SITE PARA CONJUNTO DE DADOS
 
-dados2 = pd.read_csv("C:/Users/ribei/Downloads/athlete_events.csv/athlete_events.csv")
+dados2 = pd.read_csv("")
 #print(dados2.describe())
 dados3 = dados2.head(20) #CRIA UM NOVO DATAFRAME COM AS (5) PRIMEIRAS LINHAS
 #print(dados3)
